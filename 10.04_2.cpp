@@ -13,7 +13,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	printf("\nEnter positive b:\n");
 	scanf_s("%d", &b);
 
-	if (a > 9 && b > a)	{
+	if (a > 9 && b > a) {
 		while (a <= b) {
 			inversion = 0;
 			base = a;
